@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Diner Survey</h1>
+    <p id="description">Give some feedback on the foods which have been served recently.</p>
+    <form id="survey-form">
+      <fieldset>  
+        <legend>Please enter some personal details</legend>
+        <label id="name-label" for="name-label">Name (required)</label>
+        <input required name="name" id="name" type="text" placeholder="John Smith">
+        <div>
+          <label id="email-label" for="email-label">Email (required)</label>
+          <input 
+          required 
+          name="email" 
+          id="email" 
+          type="email"
+          placeholder="example@email.com">
+        </div>
+        <div>
+          <label id="number-label" for="number-label">Number (optional)</label>
+          <input 
+          name="number" 
+          id="number" 
+          type="number" 
+          min="7" 
+          max="12" 
+          placeholder="555-555-5555">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>How was your dining experience?</legend>
+        <select id="dropdown">
+          <option disabled selected value>Did you enjoy your dinner experience with us?</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </fieldset>
+      <fieldset>
+          <legend>Was this your first time at our establishment?</legend>
+          <input id="yes-option" type="radio" name="visit" value="yes" />
+          <label for="yes-option">Yes</label>
+          <input id="no-option" type="radio" name="visit" value="no" />
+          <label for="no-option">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>What drew you to our establishment?</legend>
+        <input type="checkbox" id="recommendation" value="choice" name="recommendation">
+        <label for="recommendation">Personal Recommendation</label>
+        <input type="checkbox" id="word-of-mouth" value="choice" name="word-of-mouth">
+        <label for="word-of-mouth">Word-of-mouth</label>
+        <input type="checkbox" id="ads" value="choice" name="ads">
+        <label for="ads">Online Advertising</label>
+      </fieldset>
+      <fieldset>
+        <legend>Additional Comments?</legend>
+        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+      </fieldset>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
