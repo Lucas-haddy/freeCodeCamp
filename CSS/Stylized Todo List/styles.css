@@ -1,0 +1,37 @@
+body {
+  background-color: burlywood;
+}
+.todo-box{
+  background-color: lightsalmon;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+h1 {
+  text-align: center;
+  font-family: papyrus;
+}
+ul li{
+  font-family: papyrus;
+}
+.sub-item-link{
+  text-decoration: none;
+}
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: darkblue;
+}
+a:focus {
+  outline: none;
+  border: 2px solid purple;
+}
+a:active {
+  color: yellow;
+}
+a:hover {
+  color: cyan
+}
