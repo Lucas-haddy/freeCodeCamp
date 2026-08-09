@@ -1,0 +1,46 @@
+body {
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+input:focus, textarea:focus {
+  border-color: grey;
+  outline: none;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.radio-group input[type="radio"]:checked{
+  border-color: whitesmoke;
+  background-color: midnightblue;
+  box-shadow: 0 0 5px grey;
+}
+
+.radio-group input[type="radio"]:checked + label{
+  color: orange;
+}
+
+input:first-of-type {
+  border-radius: 5px;
+}
+
+
+
