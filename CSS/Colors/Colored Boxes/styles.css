@@ -1,0 +1,49 @@
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  font-family: Harrington, sans-serif; 
+  text-align: center;
+}
+
+
+.color-grid {
+  border: dashed 2px black;
+  border-radius: 10px;
+}
+
+.color-box {
+  width: 25.9em;
+  height: 3.5em;
+}
+
+.color1 {
+  background-color: #EB1A39;
+  border-radius: 10px;
+  margin: 5px
+}
+
+.color2 {
+  background-color: rgb(235, 99, 26);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.color3 {
+  background-color: gold;
+  border-radius: 10px;
+  margin: 5px; 
+}
+
+.color4 {
+  background-color: hsl(171, 84%, 51%);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.color5 {
+  background-color: #1A39EB;
+  border-radius: 10px;
+  margin: 5px;
+}
