@@ -1,0 +1,60 @@
+body {
+  background-image: url("https://www.doc.govt.nz/thumbs/hero/contentassets/d775e12d8c4441dfaa03c995a9996919/mt-arthur-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.form-container {
+  font-family: fcc, sans-serif;
+  height: 52vh;
+  width: 80vh;
+  display: flex;
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 0 5px 35px 15px;
+  margin: 20px;
+  background-color: #FF8C00;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  margin: 2px;
+  color: #000;
+  display: inline-block;
+}
+
+textarea {
+  width: 8em;
+  height: 2.8em;
+  padding: 0.5em;
+  margin: 0.2em 0;
+  border: none;
+  border-radius: 0.5em;
+}
+
+input {
+  width: 8em;
+  height: 1.2em;
+  padding: 0.5em;
+  margin: 0.2em 0;
+  border: none;
+  border-radius: 0.5em;
+}
+
+button {
+  background-color: #0073FF;
+  font-size: 20px;
+  font-family: fantasy, sans-serif;
+  border: 1px solid black;
+  display: flex;
+}
+
+button:hover {
+  background-color: #0D00FF;
+}
